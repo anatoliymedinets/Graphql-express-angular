@@ -1,0 +1,21 @@
+
+    <div *ngIf="loading">
+      Loading...
+    </div>
+    <div *ngIf="error">
+      Error :(
+    </div>
+
+    <div *ngIf="directors">
+      <pre>{{directors | json}}</pre>
+    </div>
+
+    <hr>
+    <div *ngIf="movies">
+      <pre>{{movies | json}}</pre>
+    </div>
+
+    <hr>
+    <div *ngIf="movie">
+      <pre>{{movie | json}}</pre>
+    </div>
