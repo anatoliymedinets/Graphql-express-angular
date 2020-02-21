@@ -12,7 +12,7 @@ async function start(){
             useNewUrlParser: true,
             useUnifiedTopology: true
           })
-        app.listen(port, async ()=>{            
+        app.listen(port, async ()=>{
             await InitializerDB.initialize();
             console.log(`Server run on port ${port}`);
         })

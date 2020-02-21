@@ -6,10 +6,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { GraphQLModule } from './graphql.module';
 import { TokenInterceptor } from './shared/classes/interceptor';
+import { MoviePageComponent } from './movie-page/movie-page.component';
+import { MainPageComponent } from './main-page/main-page.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    MoviePageComponent,
+    MainPageComponent
   ],
   imports: [
     BrowserModule,
